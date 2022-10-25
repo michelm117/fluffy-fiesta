@@ -1,0 +1,62 @@
+.wrapper {
+  width: auto;
+}
+.message_left,
+.message_right {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 11px;
+  padding: 6px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 72vw;
+
+  .chat_date {
+    text-align: end;
+  }
+}
+.message_right {
+  float: right;
+  background-color: #3339cd;
+  color: #d7dbfe;
+}
+
+.message_left {
+  float: left;
+  background-color: #ecf3fe;
+  color: #494f5d;
+}
+
+.own-message {
+  float: right;
+  background-color: rebeccapurple;
+}
+
+@media only screen and (min-width: 300px) {
+  .message_left,
+  .message_right {
+    max-width: 52vw;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .message_left,
+  .message_right {
+    max-width: 42vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .message_left,
+  .message_right {
+    max-width: 430px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .message_left,
+  .message_right {
+    max-width: 530px;
+  }
+}

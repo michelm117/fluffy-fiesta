@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:hover,
+*:focus {
+  outline: none;
+}
+
+.container {
+  .chat {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 52px;
+
+    justify-self: start;
+  }
+
+  .input {
+    width: 100%;
+    justify-self: flex-end;
+    position: fixed;
+    bottom: 0;
+
+    input {
+      width: 100%;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .send-button {
+      margin: 0;
+      padding: 0;
+      border: none;
+      position: absolute;
+      right: 0;
+      height: 100%;
+      width: 52px;
+      cursor: pointer;
+    }
+  }
+}
